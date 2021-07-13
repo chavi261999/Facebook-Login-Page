@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+header  {
+    background-color:#365899 ;
+    color: white;
+}
+
+.container{
+    
+    width: 100%;
+    margin: auto;
+    overflow: hidden;  
+
+}
+
+header h1{
+    float: left;
+    padding: 15px;
+
+}
+
+.right{
+    float: right;
+}
+
+.right table{
+    margin: 10px 0;
+}
+
+.right td a{
+    color: #fff;
+}
+
+.right  table td a button{
+    background-color: #386938;
+    color: #fff;
+    padding: 3px 8px;
+    border: 1px solid #fff;
+    margin-left: 8px;
+}
+
+section{
+    background-color: #E9EBEE;
+    background-size: cover;
+}
+
+.connect{
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    float: left;
+}
+
+.create{
+    float: right;
+    width: 40%;
+}
+
+.create h1{
+    font-size: 35px;
+}
+
+
+.create set{
+    width: 100%;
+    margin: 5%;
+}
+
+.create .bg{
+    height: auto;
+}
+
+.create button{
+    padding: 8px 40px;
+    background-color: #5D9149 ;
+    color: #fff;
+    border: none;
+    border-radius: 7px ;
+}
+ 
+.date label{
+    display: block;
+    padding: 0rem 0;
+    font-weight: bold;
+    color: gray;
+}
+
+#demo{
+    font-size:22px ;
+    text-align: center;
+    color: #386938;
+}
+
+.date{
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 767px){
+    
+}
